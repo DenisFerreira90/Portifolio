@@ -1,162 +1,187 @@
 body{
-width: auto;
-margin:0;
-background-image: linear-gradient(#2596ff, #001020);
-height: auto;
+  width: auto;
+  margin:0;
+  background-image: linear-gradient(#2596ff, #001020);
+  height: auto;
 }
 h1{
-text-align: center;
-font-size: 3rem;
-font-family:Helvetica, Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  text-align: center;
+  font-size: 3rem;
+  font-family:Helvetica, Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 p{
-font-family: Arial, Helvetica, sans-serif;
-text-align: center;
-font-size: 2rem;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  font-size: 2rem;
 }
 h2{
-text-align: center;
-font-size: 2em;
+  text-align: center;
+  font-size: 2em;
+  color: white
 }
 .campo{
-width: auto;
-height: 55vh;
+  width: auto;
+  height: 55vh;
 }
 .fotoPerfil{
-height: 498px;
-width: 736px;
+  height: 477px;
+  width: 708px;
 
 }
 .fotoPerfil img{
-width: 390px;
-height: 451px;
-margin: 59px;
-position: absolute;
-left: 258px;
-top: -33px;
+  width: 390px;
+  height: 451px;
+  margin: 59px;
+  position: absolute;
+  left: 258px;
+  top: -33px;
+  margin-left: -30px;
 }
 #denis{
-margin-top: 4px;
+  margin-top: 4px;
 }
 #text{
-position: absolute;
-margin-top: 81px;
+  position: absolute;
+  margin-top: 81px;
+  padding-right: 85px;
 }
 .textoPerfil{
-height: 50%;
-position: absolute;
-left: 708px;
-top: 73px;
-width: 60%;
+  height: 50%;
+  position: absolute;
+  left: 682px;
+  top: 73px;
+  width: 60%;
+
 }
 #Projetos{
   margin-left: auto;
   margin-right: auto;
 
 }
-#contato{
-  color: whitesmoke;
-}
 .Carrossel{
   margin-left: auto;
   margin-right: auto;
-  width: 685px;
+  width: 1000px;
   margin-top: 0;
   height: 432px;
   overflow-x: auto;
   overflow-y: hidden;
   border: red solid 4px;
+  height: 510px;
+}
+.carousel{
+  width: 100% !important;
+  height: 100% !important;
+}
+#contato{
+  color: whitesmoke;
 }
 button {
-color: white;
-border-radius: 6px;
-border: none;
-box-shadow: 1px 1px 1px grey;
-color: gray;
-height: 40px;
+  color: white;
+  border-radius: 6px;
+  border: none;
+  box-shadow: 1px 1px 1px grey;
+  color: gray;
+  height: 40px;
 }
 
 form input, form textarea {
-font-family: monospace;
-box-sizing: border-box;
-margin-bottom: 10px; 
-background: rgba(0,0,0,0.3);
-padding: 12px;
-font-size: 13px;
-color: #fff;
-text-shadow: 1px 1px 1px rgba(0,0,0,0.3);
-border: 1px solid rgba(0,0,0,0.3);
-border-radius: 6px;
-display: block;
+  font-family: monospace;
+  box-sizing: border-box;
+  margin-bottom: 10px; 
+  background: rgba(0,0,0,0.3);
+  padding: 12px;
+  font-size: 13px;
+  color: #fff;
+  text-shadow: 1px 1px 1px rgba(0,0,0,0.3);
+  border: 1px solid rgba(0,0,0,0.3);
+  border-radius: 6px;
+  display: block;
 }
 form input::placeholder, form textarea::placeholder {
-color: #b7b7b7;
+  color: #b7b7b7;
 }
 
 .center {
-margin: auto;
-top: 0;
-right: 0;
-bottom: 0;
-left: 0;
+  margin: auto;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
 }
 
-/*  Login Form */
+  /*  Login Form */
 form#login_form {
-width:250px;
-height:250px;
-text-align:center;
+  width:250px;
+  height:250px;
+  text-align:center;
 }
 form#login_form input {
-width: 100%;
+  width: 100%;
 }
 form#login_form button#login_btn {
-width: 100%;
+  width: 100%;
 }
 
-/*  Contact form*/
+  /*  Contact form*/
 h1#welcome_msg {
-background: rgba(0,0,0,0.6);
-margin: 0;
-padding: 5px;
+  background: rgba(0,0,0,0.6);
+  margin: 0;
+  padding: 5px;
 }
 form#contact_form {
-padding: 0px;
-width: 400px;
-height: auto;
-text-align: center;
+  padding: 0px;
+  width: 400px;
+  height: auto;
+  text-align: center;
 }
 form#contact_form input {
-width: 100%;
+  width: 100%;
 }
 form#contact_form textarea#contact_message {
-width: 100%;
-height: auto;
+  width: 100%;
+  height: auto;
 }
 form#contact_form button#contact_btn {
-width: 100%;
+  width: 100%;
 }
 .caixabaixa{
-height: 64px;
-background-color: transparent;
-color: whitesmoke;
-margin-top: 30px;
-display: block;
-margin-left: auto;
-margin-right: auto;
-width: 238px;
+  height: 64px;
+  background-color: transparent;
+  color: whitesmoke;
+  margin-top: 30px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 238px;
 }
 .icons{
-text-align: center;
-transition: .35s;
-cursor: pointer;
+  text-align: center;
+  transition: .35s;
+  cursor: pointer;
 }
 .icons:hover > :not(:hover){
-opacity: 4s;
-transform: scale(0.9);
+  opacity: 4s;
+  transform: scale(0.9);
 }
 .icons img{
-height: 56px;
-width: auto;
-display: inline-block;
+  height: 56px;
+  width: auto;
+  display: inline-block;
+}
+  #icons1:hover{
+  opacity: 4s;
+  transform: scale(0.9);
+}
+#icons2:hover{
+  opacity: 4s;
+  transform: scale(0.9);
+}
+#icons3:hover{
+  opacity: 4s;
+  transform: scale(0.9);
+}
+#icons4:hover{
+  opacity: 4s;
+  transform: scale(0.9);
 }
