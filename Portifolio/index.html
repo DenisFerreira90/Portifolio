@@ -1,8 +1,12 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head> 
+    
     <meta charset="utf-8">
     <link rel="stylesheet" type="text/css" href="css/index.css" media="screen">
+    <script src="https://code.jquery.com/jquery-3.6.4.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
     <script type="text/javascript" src="script/js.js"></script>
     <title>Denis Ferreira</title>
 </head>
@@ -19,8 +23,15 @@
             <br>Mas primeiramente estou me aperfeiçoando como front-end.</p>
         </div>
     </div>
-            <h2 id="Projetos" >Projetos</h2>
+            <h2 id="Projetos" >PROJETOS</h2>
     <div class="Carrossel">
+        <div class="carousel">
+            <a class="carousel-item" href="#one!"><img src="https://cdn-icons-png.flaticon.com/512/86/86632.png"></a>
+            <a class="carousel-item" href="#two!"><img src="https://cdn-icons-png.flaticon.com/512/86/86632.png"></a>
+            <a class="carousel-item" href="#three!"><img src="https://cdn-icons-png.flaticon.com/512/86/86632.png"></a>
+            <a class="carousel-item" href="#four!"><img src="https://cdn-icons-png.flaticon.com/512/86/86632.png"></a>
+            <a class="carousel-item" href="#five!"><img src="https://cdn-icons-png.flaticon.com/512/86/86632.png"></a>
+          </div>
 
     </div>
 	<form action="javascript:submitContactForm(contact_name.value, contact_email.value, contact_message.value)" id="contact_form" class="center">
@@ -32,22 +43,28 @@
       </form>
     <footer class="caixabaixa">
         <div class="icons">
-           <a href="https://github.com/DenisFerreira90" target="_blank">
-                        <img src="images/github.png" alt=""  >
+           
+            <a href="https://github.com/DenisFerreira90" target="_blank">
+                <img id="icons1" src="images/github.png" alt=""  >
             </a>
-            
-            <img src="images/gmail.png" alt="">
-            
+            <a href="mailto:denis.da.rosa.ferreira@gmail.com?subject=Questions" target="_blank"></a>
+                            <img id="icons2" src="images/gmail.png" alt="">
+            </a> 
             <a href="https://www.linkedin.com/in/denis-r-ferreira/" target="_blank">
-            <img src="images/linkedin.png" alt="">
+                <img id="icons3" src="images/linkedin.png" alt="">
             </a>
             
             <a href="https://web.whatsapp.com/send?phone=5551986583348"target="_blank" >
-                <img src="images/whatsapp.png" alt="">
+                <img id="icons4" src="images/whatsapp.png" alt="">
             </a>
             
         </div>
     </footer>
  
+<script>
+$(document).ready(function(){
+    $('.carousel').carousel();
+  });
+</script>
 
 </html>
